@@ -1,0 +1,29 @@
+{
+  "title": "Her Story",
+  "paragraphs": [
+    "Looney arrived in 2012 with big ears, bigger paws, and an immediate sense that the couch belonged to her. She grew into a steady presence — always by the door, always by your side, always ready for one more walk before dinner.",
+    "She loved soft blankets, toasted treats, and long afternoons in the yard when the sun slid across the grass. Her favorite game was “find the squeaky,” and her favorite people were whoever was standing closest to the snack drawer."
+  ],
+  "timeline": [
+    {
+      "year": "2012",
+      "title": "Homecoming",
+      "detail": "First day home, tiny paws and a giant personality."
+    },
+    {
+      "year": "2015",
+      "title": "Adventure Era",
+      "detail": "Road trips, lakes, and a fearless leap into every puddle."
+    },
+    {
+      "year": "2018",
+      "title": "Neighborhood Favorite",
+      "detail": "Daily walks became her social hour with every neighbor."
+    },
+    {
+      "year": "2022",
+      "title": "Golden Calm",
+      "detail": "Slow mornings, softer steps, and the deepest cuddles."
+    }
+  ]
+}

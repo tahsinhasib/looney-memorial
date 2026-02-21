@@ -1,0 +1,57 @@
+{
+  "badge": "Dummy Content — Replace Details",
+  "eyebrow": "In Loving Memory",
+  "name": "Looney",
+  "dates": "March 4, 2012 — November 18, 2024",
+  "intro": "Looney was a warm patch of sunlight in every room — patient paws, curious eyes, and a tail that never forgot how to wag for her people. This page is a small home for her stories, her photos, and the love she left in all of us.",
+  "cta": {
+    "primary": "Share a Memory",
+    "primaryHref": "/home/guestbook",
+    "secondary": "View Photos",
+    "secondaryHref": "/home/gallery"
+  },
+  "stats": [
+    {
+      "label": "Years",
+      "value": "12",
+      "detail": "of loyal companionship"
+    },
+    {
+      "label": "Nicknames",
+      "value": "Lulu, Bean",
+      "detail": "and Golden Girl"
+    },
+    {
+      "label": "Favorite Spot",
+      "value": "The porch",
+      "detail": "where the breeze lived"
+    }
+  ],
+  "portrait": {
+    "title": "A heart the size of a sky",
+    "body": "This space is for her happiest snapshots — morning walks, golden hour naps, and the quiet days curled at your feet.",
+    "note": "Add your favorite photos here"
+  },
+  "favorites": {
+    "title": "Favorite Things",
+    "subtitle": "A quick list of the little joys that made her light up.",
+    "items": [
+      "Pumpkin treats",
+      "The red squeaky ball",
+      "Car rides with the windows down",
+      "Sleeping under the desk",
+      "Watching birds on the porch",
+      "Stolen bites of toast"
+    ]
+  },
+  "legacy": {
+    "title": "Her Legacy",
+    "quote": "“We learned patience from her quiet wait at the door, joy from her morning spins, and gratitude from every gentle nudge.”",
+    "keepsakeTitle": "Keepsake",
+    "keepsakeBody": "Add a scanned paw print, a favorite collar photo, or a note from your vet here."
+  },
+  "footer": {
+    "primary": "Made with love for Looney.",
+    "secondary": "Replace names, dates, and memories to personalize."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Guestbook",
+  "intro": "Leave a short memory, a favorite photo, or a simple note. This is where friends and family can keep her spirit close.",
+  "tip": "Tip: Connect this form to your preferred email or database later.",
+  "form": {
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Email (optional)",
+    "messagePlaceholder": "Share your memory...",
+    "buttonLabel": "Send Tribute"
+  }
+}
