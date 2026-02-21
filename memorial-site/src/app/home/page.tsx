@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/Container";
 import homeContent from "@/data/home.json";
 
@@ -59,7 +60,15 @@ export default function HomePage() {
           <div className="absolute -left-6 top-10 h-32 w-32 rounded-full bg-[#f2d7c6]/60 blur-2xl" />
           <div className="absolute -right-10 top-24 h-40 w-40 rounded-full bg-[#7aa37a]/30 blur-3xl" />
           <div className="relative flex flex-col gap-6 rounded-[28px] border border-black/10 bg-white/80 p-6 shadow-[0_30px_80px_rgba(47,76,58,0.12)]">
-            <div className="aspect-[4/5] w-full rounded-2xl bg-gradient-to-br from-[#f5c26b]/40 via-white to-[#f2d7c6]/60" />
+            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl">
+              <Image
+                src="/images/home_1.jpg"
+                alt="Looney portrait"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
             <div className="space-y-3">
               <h3 className="font-serif text-2xl text-[#1e1c18]">
                 {portrait.title}
