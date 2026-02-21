@@ -1,6 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import Container from "@/components/Container";
 import homeContent from "@/data/home.json";
+import { withBasePath } from "@/lib/withBasePath";
 
 export default function HomePage() {
     const { badge, eyebrow, name, dates, intro, cta, stats, portrait, favorites, legacy, footer } =
@@ -29,18 +31,18 @@ export default function HomePage() {
                             {intro}
                         </p>
                         <div className="flex flex-wrap gap-4">
-                            <a
+                            <Link
                                 className="rounded-full bg-[#2f4c3a] px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#243a2d]"
                                 href={cta.primaryHref}
                             >
                                 {cta.primary}
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 className="rounded-full border border-[#2f4c3a]/30 px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#2f4c3a] transition hover:border-[#2f4c3a] hover:bg-white/70"
                                 href={cta.secondaryHref}
                             >
                                 {cta.secondary}
-                            </a>
+                            </Link>
                         </div>
                         <div className="grid gap-6 rounded-3xl border border-black/5 bg-white/70 p-6 sm:grid-cols-3">
                             {stats.map((stat) => (
@@ -62,7 +64,7 @@ export default function HomePage() {
                         <div className="relative flex flex-col gap-6 rounded-[28px] border border-black/10 bg-white/80 p-6 shadow-[0_30px_80px_rgba(47,76,58,0.12)]">
                             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl">
                                 <Image
-                                    src="/images/home_1.webp"
+                                    src={withBasePath("/images/home_1.webp")}
                                     alt="Looney portrait"
                                     fill
                                     className="object-cover"

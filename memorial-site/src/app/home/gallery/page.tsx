@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "@/components/Container";
 import galleryContent from "@/data/gallery.json";
+import { withBasePath } from "@/lib/withBasePath";
 
 export default function GalleryPage() {
   const { title, subtitle, images } = galleryContent;
@@ -18,7 +19,7 @@ export default function GalleryPage() {
               key={src}
               className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-black/10"
             >
-              <Image src={src} alt="Looney memory" fill className="object-cover" />
+              <Image src={withBasePath(src)} alt="Looney memory" fill className="object-cover" />
             </div>
           ))}
         </div>

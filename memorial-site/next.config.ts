@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   basePath: isProd ? `/${repo}` : "",
   assetPrefix: isProd ? `/${repo}/` : "",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? `/${repo}` : "",
+  },
 };
 
 export default nextConfig;
