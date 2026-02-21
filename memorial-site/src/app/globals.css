@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f9f4ed;
+  --foreground: #1e1c18;
+  --paper: #ffffff;
+  --ink-muted: #6f655a;
+  --sand: #efe4d6;
+  --sage: #2f4c3a;
+  --leaf: #7aa37a;
+  --blush: #f2d7c6;
+  --sun: #f5c26b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-display);
+}
+
+body {
+  background:
+    radial-gradient(circle at 15% 10%, #fff8ef 0%, transparent 40%),
+    radial-gradient(circle at 90% 20%, #f7e9d8 0%, transparent 45%),
+    linear-gradient(180deg, #f9f4ed 0%, #f3ece2 40%, #f9f4ed 100%);
+  color: var(--foreground);
+  font-family: var(--font-body), "Times New Roman", serif;
+}
+
+.memorial-veil {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(242, 215, 198, 0.35) 0%, transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(122, 163, 122, 0.2) 0%, transparent 40%),
+    linear-gradient(120deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 100%);
+}
