@@ -8,9 +8,9 @@ export default function GuestbookPage() {
 
     return (
         <main className="memorial-veil pb-16 pt-10">
-            <Container className="flex flex-col gap-10">
-                <section className="rounded-[32px] border border-black/5 bg-white/80 p-8 lg:p-12">
-                    <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+            <Container className="flex w-full flex-col gap-10">
+                <section className="w-full rounded-[32px] border border-black/5 bg-white/80 p-8 lg:p-12">
+                    <div className="grid w-full gap-10 lg:grid-cols-[1.1fr_0.9fr]">
                         <div className="space-y-4">
                             <h2 className="font-serif text-3xl text-[#1e1c18]">{title}</h2>
                             <p className="text-base leading-relaxed text-[#5f564d]">

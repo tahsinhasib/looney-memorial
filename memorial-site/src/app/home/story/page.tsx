@@ -6,8 +6,8 @@ export default function StoryPage() {
 
   return (
     <main className="memorial-veil pb-16 pt-10">
-      <Container className="flex flex-col gap-12">
-        <section className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+      <Container className="flex w-full flex-col gap-12">
+        <section className="grid w-full gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div className="space-y-6">
             <h2 className="font-serif text-3xl text-[#1e1c18]">{title}</h2>
             {paragraphs.map((paragraph) => (

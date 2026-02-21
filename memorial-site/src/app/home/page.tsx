@@ -8,8 +8,8 @@ export default function HomePage() {
 
     return (
         <main className="memorial-veil pb-16 pt-10">
-            <Container className="flex flex-col gap-16 lg:gap-20">
-                <section className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <Container className="flex flex-col gap-16 overflow-x-clip lg:gap-20">
+      <section className="relative grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
                     <div className="flex flex-col gap-6">
                         <span className="w-fit rounded-full border border-black/10 bg-white/80 px-4 py-1 text-xs uppercase tracking-[0.3em] text-[#6f655a]">
                             {badge}
