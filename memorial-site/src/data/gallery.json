@@ -1,5 +1,9 @@
 {
-  "title": "Photo Moments",
-  "subtitle": "Replace these placeholders with your favorite photos.",
-  "count": 9
+    "title": "Photo Moments",
+    "subtitle": "Replace these placeholders with your favorite photos.",
+    "images": [
+        "/images/gallery_1.webp",
+        "/images/gallery_2.webp",
+        "/images/gallery_3.webp"
+    ]
 }
